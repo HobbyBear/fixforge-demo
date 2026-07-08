@@ -1,0 +1,1341 @@
+{
+  "mode": "graphify",
+  "files": [
+    ".claude/commands/opsx/apply.md",
+    ".claude/commands/opsx/archive.md",
+    ".claude/commands/opsx/bulk-archive.md",
+    ".claude/commands/opsx/continue.md",
+    ".claude/commands/opsx/explore.md",
+    ".claude/commands/opsx/ff.md",
+    ".claude/commands/opsx/new.md",
+    ".claude/commands/opsx/onboard.md",
+    ".claude/commands/opsx/propose.md",
+    ".claude/commands/opsx/sync.md",
+    ".claude/commands/opsx/verify.md",
+    ".claude/rules/repomind.md",
+    ".claude/skills/openspec-apply-change/SKILL.md",
+    ".claude/skills/openspec-archive-change/SKILL.md",
+    ".claude/skills/openspec-bulk-archive-change/SKILL.md",
+    ".claude/skills/openspec-continue-change/SKILL.md",
+    ".claude/skills/openspec-explore/SKILL.md",
+    ".claude/skills/openspec-ff-change/SKILL.md",
+    ".claude/skills/openspec-new-change/SKILL.md",
+    ".claude/skills/openspec-onboard/SKILL.md",
+    ".claude/skills/openspec-propose/SKILL.md",
+    ".claude/skills/openspec-sync-specs/SKILL.md",
+    ".claude/skills/openspec-verify-change/SKILL.md",
+    ".claude/skills/repomind-init/SKILL.md",
+    ".claude/skills/repomind-init/agents/openai.yaml",
+    ".claude/skills/repomind-prd/SKILL.md",
+    ".claude/skills/repomind-prd/agents/openai.yaml",
+    ".claude/skills/repomind-query/SKILL.md",
+    ".claude/skills/repomind-query/agents/openai.yaml",
+    ".claude/skills/repomind-summary/SKILL.md",
+    ".claude/skills/repomind-summary/agents/openai.yaml",
+    ".codex/skills/openspec-apply-change/SKILL.md",
+    ".codex/skills/openspec-archive-change/SKILL.md",
+    ".codex/skills/openspec-bulk-archive-change/SKILL.md",
+    ".codex/skills/openspec-continue-change/SKILL.md",
+    ".codex/skills/openspec-explore/SKILL.md",
+    ".codex/skills/openspec-ff-change/SKILL.md",
+    ".codex/skills/openspec-new-change/SKILL.md",
+    ".codex/skills/openspec-onboard/SKILL.md",
+    ".codex/skills/openspec-propose/SKILL.md",
+    ".codex/skills/openspec-sync-specs/SKILL.md",
+    ".codex/skills/openspec-verify-change/SKILL.md",
+    ".codex/skills/repomind-init/SKILL.md",
+    ".codex/skills/repomind-init/agents/openai.yaml",
+    ".codex/skills/repomind-prd/SKILL.md",
+    ".codex/skills/repomind-prd/agents/openai.yaml",
+    ".codex/skills/repomind-query/SKILL.md",
+    ".codex/skills/repomind-query/agents/openai.yaml",
+    ".codex/skills/repomind-summary/SKILL.md",
+    ".codex/skills/repomind-summary/agents/openai.yaml",
+    ".gitattributes",
+    ".repomind/.gitignore",
+    ".repomind/.kb-format.json",
+    ".repomind/graph/summary.json",
+    "AGENTS.md",
+    "ReadMe.md",
+    "alerterserver/main.go",
+    "build.sh",
+    "docker-compose.yaml",
+    "filebeat.yml",
+    "go.mod",
+    "grafanadashbord/app_dashboard.json",
+    "grafanadashbord/mysql_dashboard.json",
+    "grafanadashbord/redis_dashboard.json",
+    "grafanadashbord/system_dashboard.json",
+    "graphify-out/.gitignore",
+    "infra/const.go",
+    "infra/hooks.go",
+    "infra/log.go",
+    "infra/middleware.go",
+    "infra/monitor.go",
+    "infra/parser_test.go",
+    "infra/redis.go",
+    "infra/sqlhooks.go",
+    "infra/sqlparser.go",
+    "infra/stack.go",
+    "logconf/api.yml",
+    "logs/api.log",
+    "logstash.conf",
+    "openspec/changes/test-change/design.md",
+    "openspec/changes/test-change/proposal.md",
+    "openspec/changes/test-change/requirement.md",
+    "openspec/changes/test-change/tasks.md",
+    "openspec/config.yaml",
+    "program/.ash_history",
+    "program/start_node_exporter.sh",
+    "prometheus.yml",
+    "webapp/main.go"
+  ],
+  "module_candidates": [
+    {
+      "name": "build.sh",
+      "paths": [
+        "build.sh"
+      ]
+    },
+    {
+      "name": "program",
+      "paths": [
+        "program"
+      ]
+    },
+    {
+      "name": "ReadMe.md",
+      "paths": [
+        "ReadMe.md"
+      ]
+    },
+    {
+      "name": "openspec",
+      "paths": [
+        "openspec"
+      ]
+    },
+    {
+      "name": "infra",
+      "paths": [
+        "infra"
+      ]
+    },
+    {
+      "name": "webapp",
+      "paths": [
+        "webapp"
+      ]
+    },
+    {
+      "name": "filebeat.yml",
+      "paths": [
+        "filebeat.yml"
+      ]
+    },
+    {
+      "name": "logconf",
+      "paths": [
+        "logconf"
+      ]
+    },
+    {
+      "name": ".repomind",
+      "paths": [
+        ".repomind"
+      ]
+    },
+    {
+      "name": ".claude",
+      "paths": [
+        ".claude"
+      ]
+    },
+    {
+      "name": "alerterserver",
+      "paths": [
+        "alerterserver"
+      ]
+    },
+    {
+      "name": "grafanadashbord",
+      "paths": [
+        "grafanadashbord"
+      ]
+    },
+    {
+      "name": "docker-compose.yaml",
+      "paths": [
+        "docker-compose.yaml"
+      ]
+    },
+    {
+      "name": "prometheus.yml",
+      "paths": [
+        "prometheus.yml"
+      ]
+    },
+    {
+      "name": ".codex",
+      "paths": [
+        ".codex"
+      ]
+    }
+  ],
+  "entry_files": [
+    "logconf/api.yml",
+    "logs/api.log"
+  ],
+  "symbols": [
+    {
+      "name": "main.go",
+      "file": "alerterserver/main.go",
+      "pkg": "alerterserver"
+    },
+    {
+      "name": "main()",
+      "file": "alerterserver/main.go",
+      "pkg": "alerterserver"
+    },
+    {
+      "name": "build.sh",
+      "file": "build.sh",
+      "pkg": "build.sh"
+    },
+    {
+      "name": "build.sh script",
+      "file": "build.sh",
+      "pkg": "build.sh"
+    },
+    {
+      "name": "const.go",
+      "file": "infra/const.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "hooks.go",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "registerHookDriver()",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "HookDb",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".Before()",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Context",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "truncateKey()",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".After()",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".OnError()",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "DbInfo",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "decorateMySQLConn()",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "sqlMonitor",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".InitHookDb()",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "log.go",
+      "file": "infra/log.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "init()",
+      "file": "infra/log.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Middleware",
+      "file": "infra/middleware.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "responseWriter",
+      "file": "infra/middleware.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".WriteHeader()",
+      "file": "infra/middleware.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".Status()",
+      "file": "infra/middleware.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "MetricMiddleware()",
+      "file": "infra/middleware.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Handler",
+      "file": "infra/middleware.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "monitor.go",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "init()",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "metricMonitor",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".RecordClientCount()",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".RecordClientHandlerSeconds()",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".RecordServerHandlerSeconds()",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".RecordServerCount()",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".RegPrometheusClient()",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "parser_test.go",
+      "file": "infra/parser_test.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "TestParseSql()",
+      "file": "infra/parser_test.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "T",
+      "file": "infra/parser_test.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "redis.go",
+      "file": "infra/redis.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "redisMonitor",
+      "file": "infra/redis.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".AddMonitorKey()",
+      "file": "infra/redis.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "matchKey()",
+      "file": "infra/redis.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "getCmdFromKey()",
+      "file": "infra/redis.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".AddRedisHook()",
+      "file": "infra/redis.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Client",
+      "file": "infra/redis.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "cacheWrapper()",
+      "file": "infra/redis.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Cmder",
+      "file": "infra/redis.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Time",
+      "file": "infra/redis.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "sqlhooks.go",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Hook",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "ErrorHook",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Hooks",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "OnErrorer",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "handlerErr()",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Context",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Driver",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".Open()",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Conn",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Conn",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".PrepareContext()",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Stmt",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".BeginTx()",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "TxOptions",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Tx",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "DriveTx",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Time",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "getStack()",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "stack",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".Commit()",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".Rollback()",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".execContext()",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "NamedValue",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Result",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".queryContext()",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Rows",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Stmt",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".execContext()",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".queryContext()",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Wrap()",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "namedToInterface()",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "namedValueToValue()",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Value",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "sqlparser.go",
+      "file": "infra/sqlparser.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "SqlOp",
+      "file": "infra/sqlparser.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "sqlMonitor",
+      "file": "infra/sqlparser.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".SetFixName()",
+      "file": "infra/sqlparser.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".parseTable()",
+      "file": "infra/sqlparser.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "getTable()",
+      "file": "infra/sqlparser.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Statement",
+      "file": "infra/sqlparser.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "getOp()",
+      "file": "infra/sqlparser.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "getTables()",
+      "file": "infra/sqlparser.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "TableExprs",
+      "file": "infra/sqlparser.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "stack",
+      "file": "infra/stack.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Frame",
+      "file": "infra/stack.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".pc()",
+      "file": "infra/stack.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".file()",
+      "file": "infra/stack.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".line()",
+      "file": "infra/stack.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".name()",
+      "file": "infra/stack.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".Format()",
+      "file": "infra/stack.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "State",
+      "file": "infra/stack.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".MarshalText()",
+      "file": "infra/stack.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "StackTrace",
+      "file": "infra/stack.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".Format()",
+      "file": "infra/stack.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".formatSlice()",
+      "file": "infra/stack.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".Format()",
+      "file": "infra/stack.go",
+      "pkg": "infra"
+    },
+    {
+      "name": ".StackTrace()",
+      "file": "infra/stack.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "callers()",
+      "file": "infra/stack.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "funcname()",
+      "file": "infra/stack.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "start_node_exporter.sh",
+      "file": "program/start_node_exporter.sh",
+      "pkg": "program"
+    },
+    {
+      "name": "start_node_exporter.sh script",
+      "file": "program/start_node_exporter.sh",
+      "pkg": "program"
+    },
+    {
+      "name": "main.go",
+      "file": "webapp/main.go",
+      "pkg": "webapp"
+    },
+    {
+      "name": "main()",
+      "file": "webapp/main.go",
+      "pkg": "webapp"
+    },
+    {
+      "name": "handleRequest()",
+      "file": "webapp/main.go",
+      "pkg": "webapp"
+    },
+    {
+      "name": "ResponseWriter",
+      "file": "webapp/main.go",
+      "pkg": "webapp"
+    },
+    {
+      "name": "Request",
+      "file": "webapp/main.go",
+      "pkg": "webapp"
+    },
+    {
+      "name": "handleRequest",
+      "file": "webapp/main.go",
+      "pkg": "webapp"
+    },
+    {
+      "name": "MetricMonitor",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "MetricMonitor.RecordServerCount",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "MetricMonitor.RecordServerHandlerSeconds",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "MetricMonitor.RecordClientCount",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "MetricMonitor.RecordClientHandlerSeconds",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "MetricMonitor.RegPrometheusClient",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "server_handle_seconds histogram",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "server_handle_total counter",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "client_handle_total counter",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "client_handle_seconds histogram",
+      "file": "infra/monitor.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "HookDb.Before",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "HookDb.After",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "HookDb.OnError",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "sqlMonitor.InitHookDb",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "LocalDbClient",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Hooks interface",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "OnErrorer interface",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Driver (wrapped)",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Conn (wrapped)",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Stmt (wrapped)",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "SqlMonitor",
+      "file": "infra/sqlparser.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "sqlMonitor.parseTable",
+      "file": "infra/sqlparser.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "sqlMonitor.SetFixName",
+      "file": "infra/sqlparser.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "RedisMonitor",
+      "file": "infra/redis.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "RedisMonitor.AddRedisHook",
+      "file": "infra/redis.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "RedisMonitor.AddMonitorKey",
+      "file": "infra/redis.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Const: Cost, MetricType, Stack",
+      "file": "infra/const.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Grafana App Dashboard",
+      "file": "grafanadashbord/app_dashboard.json",
+      "pkg": "grafanadashbord"
+    },
+    {
+      "name": "Grafana MySQL Dashboard",
+      "file": "grafanadashbord/mysql_dashboard.json",
+      "pkg": "grafanadashbord"
+    },
+    {
+      "name": "Grafana Redis Dashboard",
+      "file": "grafanadashbord/redis_dashboard.json",
+      "pkg": "grafanadashbord"
+    },
+    {
+      "name": "Grafana System Dashboard",
+      "file": "grafanadashbord/system_dashboard.json",
+      "pkg": "grafanadashbord"
+    },
+    {
+      "name": "EasyMonitor Project",
+      "file": "ReadMe.md",
+      "pkg": "ReadMe.md"
+    },
+    {
+      "name": "Build Script",
+      "file": "build.sh",
+      "pkg": "build.sh"
+    },
+    {
+      "name": "SMB-oriented monitoring system design",
+      "file": "ReadMe.md",
+      "pkg": "ReadMe.md"
+    },
+    {
+      "name": "Slow query detection (\u003e1s) and long transaction detection (\u003e8s)",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Shard table name normalization for metric aggregation",
+      "file": "webapp/main.go",
+      "pkg": "webapp"
+    },
+    {
+      "name": "Multi-table select query warning",
+      "file": "infra/hooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Transparent instrumentation via driver wrapping",
+      "file": "infra/sqlhooks.go",
+      "pkg": "infra"
+    },
+    {
+      "name": "Pluggable alert notification strategy",
+      "file": "alerterserver/main.go",
+      "pkg": "alerterserver"
+    },
+    {
+      "name": "Node Exporter Service (mynode)",
+      "file": "docker-compose.yaml",
+      "pkg": "docker-compose.yaml"
+    },
+    {
+      "name": "Prometheus Service",
+      "file": "docker-compose.yaml",
+      "pkg": "docker-compose.yaml"
+    },
+    {
+      "name": "Grafana Service",
+      "file": "docker-compose.yaml",
+      "pkg": "docker-compose.yaml"
+    },
+    {
+      "name": "Elasticsearch Service",
+      "file": "docker-compose.yaml",
+      "pkg": "docker-compose.yaml"
+    },
+    {
+      "name": "Kibana Service",
+      "file": "docker-compose.yaml",
+      "pkg": "docker-compose.yaml"
+    },
+    {
+      "name": "Filebeat Service",
+      "file": "docker-compose.yaml",
+      "pkg": "docker-compose.yaml"
+    },
+    {
+      "name": "Logstash Service",
+      "file": "docker-compose.yaml",
+      "pkg": "docker-compose.yaml"
+    },
+    {
+      "name": "Alerterserver Service (ubuntu container)",
+      "file": "docker-compose.yaml",
+      "pkg": "docker-compose.yaml"
+    },
+    {
+      "name": "MySQL Database Service",
+      "file": "docker-compose.yaml",
+      "pkg": "docker-compose.yaml"
+    },
+    {
+      "name": "Filebeat Configuration",
+      "file": "filebeat.yml",
+      "pkg": "filebeat.yml"
+    },
+    {
+      "name": "Filebeat Log Input (API logs)",
+      "file": "logconf/api.yml",
+      "pkg": "logconf"
+    },
+    {
+      "name": "Prometheus Scrape Configuration",
+      "file": "prometheus.yml",
+      "pkg": "prometheus.yml"
+    },
+    {
+      "name": "RepoMind Knowledge Base Format v2",
+      "file": ".repomind/.kb-format.json",
+      "pkg": ".repomind"
+    },
+    {
+      "name": "RepoMind Graph Summary (fallback mode)",
+      "file": ".repomind/graph/summary.json",
+      "pkg": ".repomind"
+    },
+    {
+      "name": "OpenSpec Project Configuration (spec-driven)",
+      "file": "openspec/config.yaml",
+      "pkg": "openspec"
+    },
+    {
+      "name": "Test Change Artifacts",
+      "file": "openspec/changes/test-change",
+      "pkg": "openspec"
+    },
+    {
+      "name": "OPSX Apply Command",
+      "file": ".claude/commands/opsx/apply.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OPSX Archive Command",
+      "file": ".claude/commands/opsx/archive.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OPSX Bulk Archive Command",
+      "file": ".claude/commands/opsx/bulk-archive.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OPSX Continue Command",
+      "file": ".claude/commands/opsx/continue.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OPSX Explore Command",
+      "file": ".claude/commands/opsx/explore.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OPSX Fast Forward Command",
+      "file": ".claude/commands/opsx/ff.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OPSX New Command",
+      "file": ".claude/commands/opsx/new.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OPSX Onboard Command",
+      "file": ".claude/commands/opsx/onboard.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OPSX Propose Command",
+      "file": ".claude/commands/opsx/propose.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OPSX Sync Command",
+      "file": ".claude/commands/opsx/sync.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OPSX Verify Command",
+      "file": ".claude/commands/opsx/verify.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OpenSpec Artifact-Driven Workflow Model",
+      "file": "openspec/config.yaml",
+      "pkg": "openspec"
+    },
+    {
+      "name": "OpenSpec Change Lifecycle Pipeline",
+      "file": ".claude/commands/opsx/new.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "RepoMind Rules",
+      "file": ".claude/rules/repomind.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OpenSpec Apply Change Skill",
+      "file": ".claude/skills/openspec-apply-change/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OpenSpec Archive Change Skill",
+      "file": ".claude/skills/openspec-archive-change/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OpenSpec Bulk Archive Change Skill",
+      "file": ".claude/skills/openspec-bulk-archive-change/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OpenSpec Continue Change Skill",
+      "file": ".claude/skills/openspec-continue-change/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OpenSpec Explore Mode Skill",
+      "file": ".claude/skills/openspec-explore/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OpenSpec Fast-Forward Change Skill",
+      "file": ".claude/skills/openspec-ff-change/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OpenSpec New Change Skill",
+      "file": ".claude/skills/openspec-new-change/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OpenSpec Onboarding Skill",
+      "file": ".claude/skills/openspec-onboard/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OpenSpec Propose Change Skill",
+      "file": ".claude/skills/openspec-propose/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OpenSpec Sync Specs Skill",
+      "file": ".claude/skills/openspec-sync-specs/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OpenSpec Verify Change Skill",
+      "file": ".claude/skills/openspec-verify-change/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "RepoMind Init Skill",
+      "file": ".claude/skills/repomind-init/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "RepoMind PRD Skill",
+      "file": ".claude/skills/repomind-prd/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "RepoMind Query Skill",
+      "file": ".claude/skills/repomind-query/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "RepoMind Summary Skill",
+      "file": ".claude/skills/repomind-summary/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OpenSpec Change",
+      "file": ".claude/skills/openspec-new-change/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "OpenSpec Artifact",
+      "file": ".claude/skills/openspec-continue-change/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "Spec-Driven Workflow Schema",
+      "file": ".claude/skills/openspec-onboard/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "Delta Specs",
+      "file": ".claude/skills/openspec-sync-specs/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "Summary Gate",
+      "file": ".claude/rules/repomind.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "Frontmatter Metadata Routing",
+      "file": ".claude/rules/repomind.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "Explore as Stance Not Workflow",
+      "file": ".claude/skills/openspec-explore/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "RepoMind Knowledge Dimensions",
+      "file": ".claude/rules/repomind.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "Query Findings File",
+      "file": ".claude/skills/repomind-summary/SKILL.md",
+      "pkg": ".claude"
+    },
+    {
+      "name": "openspec-apply-change: Implement tasks from an OpenSpec change",
+      "file": ".codex/skills/openspec-apply-change/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "openspec-archive-change: Archive a completed change",
+      "file": ".codex/skills/openspec-archive-change/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "openspec-bulk-archive-change: Batch archive multiple changes",
+      "file": ".codex/skills/openspec-bulk-archive-change/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "openspec-continue-change: Continue working on a change by creating the next artifact",
+      "file": ".codex/skills/openspec-continue-change/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "openspec-explore: Thinking partner for exploring ideas before/during a change",
+      "file": ".codex/skills/openspec-explore/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "openspec-ff-change: Fast-forward through artifact creation",
+      "file": ".codex/skills/openspec-ff-change/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "openspec-new-change: Start a new OpenSpec change",
+      "file": ".codex/skills/openspec-new-change/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "openspec-onboard: Guided onboarding walkthrough for OpenSpec",
+      "file": ".codex/skills/openspec-onboard/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "openspec-propose: Create change and all artifacts in one step",
+      "file": ".codex/skills/openspec-propose/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "openspec-sync-specs: Sync delta specs from a change to main specs",
+      "file": ".codex/skills/openspec-sync-specs/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "openspec-verify-change: Verify implementation matches change artifacts",
+      "file": ".codex/skills/openspec-verify-change/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "repomind-init: Initialize RepoMind knowledge base with graphify rebuild",
+      "file": ".codex/skills/repomind-init/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "repomind-prd: Extract business concepts from historical PRD documents",
+      "file": ".codex/skills/repomind-prd/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "repomind-query: Route business/code questions through RepoMind knowledge before answering",
+      "file": ".codex/skills/repomind-query/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "repomind-summary: Post-answer summary gate for persisting reusable findings",
+      "file": ".codex/skills/repomind-summary/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "repomind-init OpenAI agent configuration",
+      "file": ".codex/skills/repomind-init/agents/openai.yaml",
+      "pkg": ".codex"
+    },
+    {
+      "name": "repomind-prd OpenAI agent configuration",
+      "file": ".codex/skills/repomind-prd/agents/openai.yaml",
+      "pkg": ".codex"
+    },
+    {
+      "name": "repomind-query OpenAI agent configuration",
+      "file": ".codex/skills/repomind-query/agents/openai.yaml",
+      "pkg": ".codex"
+    },
+    {
+      "name": "repomind-summary OpenAI agent configuration",
+      "file": ".codex/skills/repomind-summary/agents/openai.yaml",
+      "pkg": ".codex"
+    },
+    {
+      "name": "OpenSpec Change: a container for work holding proposal, specs, design, and tasks artifacts",
+      "file": ".codex/skills/openspec-new-change/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "spec-driven schema: proposal -\u003e specs -\u003e design -\u003e tasks artifact sequence",
+      "file": ".codex/skills/openspec-continue-change/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "Summary Gate: lightweight check before writing to RepoMind knowledge base",
+      "file": ".codex/skills/repomind-summary/SKILL.md",
+      "pkg": ".codex"
+    },
+    {
+      "name": "RepoMind Knowledge Types: concepts, modules, troubles",
+      "file": ".codex/skills/repomind-query/SKILL.md",
+      "pkg": ".codex"
+    }
+  ]
+}
