@@ -1,0 +1,7 @@
+{
+  "trigger": "问答",
+  "intent": "用户询问项目整体结构，包括模块、组件和目录组织",
+  "known_modules": ["alerterserver", "webapp", "infra"],
+  "new_findings": [],
+  "needs_summary": false
+}
