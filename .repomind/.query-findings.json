@@ -1,7 +1,7 @@
 {
   "trigger": "问答",
-  "intent": "用户询问项目整体结构，包括模块、组件和目录组织",
-  "known_modules": ["alerterserver", "webapp", "infra"],
+  "intent": "用户询问订单流程（订单流程是怎么样的），但本仓库 EasyMonitor 是监控基础设施项目，不存在订单业务逻辑。已将项目实际的数据流和模块协作关系作为回答依据。",
+  "known_modules": ["infra", "webapp", "alerterserver"],
   "new_findings": [],
   "needs_summary": false
 }
