@@ -1,7 +1,7 @@
 {
   "trigger": "问答",
-  "intent": "用户询问账号 746435474、917952590 八月份会员钻石未到账，是否发放到了同设备的其他用户。但本仓库 EasyMonitor 是监控基础设施项目，不存在会员/钻石/设备发放相关业务逻辑，且当前会话无会员系统的数据库/日志 MCP 工具可查询正式环境数据。",
-  "known_modules": ["infra", "webapp", "alerterserver"],
+  "intent": "用户询问 m_ind 应该在哪个数据库、哪张表里查看，RepoMind 与代码仓库中均未检索到 m_ind 相关记录，无新知识可沉淀。",
+  "known_modules": [],
   "new_findings": [],
   "needs_summary": false
 }
