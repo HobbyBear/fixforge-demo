@@ -17,3 +17,7 @@ create index t_agency_email_index
 func TestHelloWorld(t *testing.T) {
 	fmt.Println("hello world")
 }
+
+func TestHelloWorld2(t *testing.T) {
+	fmt.Println("hello world2")
+}
