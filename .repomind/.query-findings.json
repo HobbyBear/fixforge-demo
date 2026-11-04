@@ -1,7 +1,0 @@
-{
-  "trigger": "问答",
-  "intent": "用户询问 m_ind 应该在哪个数据库、哪张表里查看，RepoMind 与代码仓库中均未检索到 m_ind 相关记录，无新知识可沉淀。",
-  "known_modules": [],
-  "new_findings": [],
-  "needs_summary": false
-}
