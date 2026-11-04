@@ -1,6 +1,7 @@
 ---
 name: "FixForge 测试项目"
 description: "项目身份：本仓库是 FixForge 的 QA 测试沙箱，以 EasyMonitor 代码为基底，叠加 RepoMind 知识库管理和 OpenSpec 规约驱动开发工作流。用户讨论项目用途、仓库身份或工具配置时提及。与 EasyMonitor 监控方案本身是不同的概念层——FixForge 是容器，EasyMonitor 是内容。"
+status: active
 ---
 
 # 概念：FixForge 测试项目

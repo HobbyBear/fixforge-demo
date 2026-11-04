@@ -1,6 +1,7 @@
 ---
 name: "alerterserver 告警服务"
 description: "easymonitor 的告警接收与分发服务。用于定位告警通知的接收端点、路由策略和扩展点，涉及告警管道和通知渠道接入。"
+status: active
 keywords:
 - "告警"
 - "alert"

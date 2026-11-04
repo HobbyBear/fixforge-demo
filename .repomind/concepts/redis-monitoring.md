@@ -1,6 +1,7 @@
 ---
 name: "Redis 键监控"
 description: "基于 key 前缀白名单的 Redis 操作监控。用户讨论 Redis 性能、缓存命中率、key 设计或 Redis 异常排查时会提及。与 MySQL 监控容易混淆——Redis 监控有白名单过滤机制，MySQL 监控是全量采集。"
+status: active
 ---
 
 # 概念：Redis 键监控

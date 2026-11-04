@@ -1,6 +1,7 @@
 ---
 name: "infra 监控基础设施"
 description: "easymonitor 核心监控埋点库。用于定位 SQL/Redis/HTTP 的指标采集入口、驱动包装机制和改动影响面，涉及慢查询、长事务、告警策略等业务场景。"
+status: active
 keywords:
 - "infra"
 - "监控"

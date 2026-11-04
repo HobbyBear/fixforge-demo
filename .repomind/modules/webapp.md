@@ -1,6 +1,7 @@
 ---
 name: "webapp 示例应用"
 description: "easymonitor 的示例 Web 应用，展示如何集成 infra 模块做监控埋点。用于定位监控 SDK 的接入方式和典型使用模式。"
+status: active
 keywords:
 - "webapp"
 - "示例"

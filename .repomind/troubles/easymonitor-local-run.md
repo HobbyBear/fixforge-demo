@@ -1,6 +1,7 @@
 ---
 name: "EasyMonitor 本地启动跑不起来"
 description: "本地想直接运行 easymonitor（docker-compose up）却失败或 webapp 持续报错时查看。首查方向：是否先编译二进制、build.sh 的 GOARCH 架构、docker-compose 缺少 redis 服务、redis 地址硬编码。"
+status: active
 ---
 
 # 排查：EasyMonitor 本地启动跑不起来
