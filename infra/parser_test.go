@@ -13,3 +13,7 @@ create index t_agency_email_index
 `
 	fmt.Println(SqlMonitor.parseTable(sql))
 }
+
+func TestHelloWorld(t *testing.T) {
+	fmt.Println("hello world")
+}
