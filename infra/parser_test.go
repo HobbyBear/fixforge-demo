@@ -25,3 +25,7 @@ func TestHelloWorld2(t *testing.T) {
 func TestHelloWorld3(t *testing.T) {
 	fmt.Println("hello world3")
 }
+
+func TestHelloMan(t *testing.T) {
+	fmt.Println("hello man")
+}
